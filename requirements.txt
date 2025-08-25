@@ -79,6 +79,7 @@ pandas==2.3.2
 pandocfilters==1.5.1
 parso==0.8.5
 pathspec==0.12.1
+-e git+ssh://git@github.com/jonkracht/pdga-score-scraper.git@1ec60aa25c8cc702f6a22380f8009285734cefce#egg=pdga_score_scraper
 pexpect==4.9.0
 pillow==11.3.0
 platformdirs==4.3.8
@@ -110,6 +111,7 @@ rich==14.1.0
 rpds-py==0.27.0
 scikit-learn==1.7.1
 scipy==1.15.3
+seaborn==0.13.2
 Send2Trash==1.8.3
 shellingham==1.5.4
 six==1.17.0
