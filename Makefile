@@ -61,12 +61,13 @@ create_environment:
 ## Make dataset
 .PHONY: data
 data: requirements
-	# TODO:  compact this into mkdir -p data/{raw,...}
+	# TODO:  consolidate into mkdir -p data/{raw,...}
 	mkdir -p data/raw
 	mkdir -p data/interim
 	mkdir -p data/processed
 	mkdir -p data/external
 	$(PYTHON_INTERPRETER) pdga_score_scraper/dataset.py
+	$(PYTHON_INTERPRETER) pdga_score_scraper/features.py
 
 
 #################################################################################
