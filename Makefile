@@ -30,7 +30,7 @@ requirements:
 
 .PHONY: update_requirements
 update_requirements:
-	pip list --format=freeze --exclude-editable 
+	pip list --format=freeze --exclude-editable > requirements.txt
 
 ## Delete all compiled Python files
 .PHONY: clean
