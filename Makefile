@@ -18,6 +18,9 @@ requirements:
 	$(PYTHON_INTERPRETER) -m pip install -r requirements.txt
 	
 
+.PHONY: update_requirements
+update_requirements:
+	pip list --format=freeze > requirements.txt
 
 
 ## Delete all compiled Python files
