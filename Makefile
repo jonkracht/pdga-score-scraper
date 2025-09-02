@@ -77,6 +77,7 @@ data: requirements
 # Self Documenting Commands                                                     #
 #################################################################################
 
+# Prints line above target when `make help` is executed
 .DEFAULT_GOAL := help
 
 define PRINT_HELP_PYSCRIPT
