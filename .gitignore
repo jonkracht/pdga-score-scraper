@@ -1,5 +1,5 @@
-# Data
-/data/
+# Data:  Not excluding in this project because relatively small in size (a few hundred KB)
+#/data/ 
 
 # Mac OS-specific storage files
 .DS_Store
