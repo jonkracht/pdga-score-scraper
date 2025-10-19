@@ -43,7 +43,7 @@ def main(
 ):
 
     # Load raw data
-    tournament_id = 89132
+    tournament_id = input("\nEnter tournament ID:  ")
 
     data = pd.read_pickle(f"data/raw/{tournament_id}.pkl")
 

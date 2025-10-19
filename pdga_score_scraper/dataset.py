@@ -29,7 +29,10 @@ def main(
     }
 
     # Grab 'tournament_info'
-    tournament_id = 89132  # TODO: allow user input
+    #tournament_id = 89132
+    tournament_id = input("Enter tournamend ID:  ")  # TODO: allow user input
+    
+
     url = "https://www.pdga.com/apps/tournament/live-api/live_results_fetch_event?TournID="
 
     page = requests.get(url + str(tournament_id), headers=headers)
@@ -43,13 +46,13 @@ def main(
 
     # Grab 'live_layout'
     url = (
-        "https://www.pdga.com/api/v1/live-tournaments/89132/live-layouts?include=LiveLayoutDetails"
+        "https://www.pdga.com/api/v1/live-tournaments/" + str(tournament_id) +"/live-layouts?include=LiveLayoutDetails"
     )
     live_layout = requests.get(url, headers=headers).json()
 
     # Create list of ResultID's
     result_ids = []
-    baseurl = "https://www.pdga.com/apps/tournament/live-api/live_results_fetch_updated_round_scores?TournID=89132&Division="
+    baseurl = "https://www.pdga.com/apps/tournament/live-api/live_results_fetch_updated_round_scores?TournID=" + str(tournament_id) + "&Division="
 
     for div in divisions:
         url = baseurl + div
