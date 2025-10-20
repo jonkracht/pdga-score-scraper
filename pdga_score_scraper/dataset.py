@@ -29,13 +29,12 @@ def main(
     }
 
     # Grab 'tournament_info'
-    #tournament_id = 89132
-    tournament_id = input("Enter tournamend ID:  ")  # TODO: allow user input
-    
+    # event_id = 89132
+    event_id = input("Enter tournamend ID:  ")  # TODO: allow user input
 
     url = "https://www.pdga.com/apps/tournament/live-api/live_results_fetch_event?TournID="
 
-    page = requests.get(url + str(tournament_id), headers=headers)
+    page = requests.get(url + str(event_id), headers=headers)
 
     tournament_info = page.json()["data"]
 
@@ -46,13 +45,19 @@ def main(
 
     # Grab 'live_layout'
     url = (
-        "https://www.pdga.com/api/v1/live-tournaments/" + str(tournament_id) +"/live-layouts?include=LiveLayoutDetails"
+        "https://www.pdga.com/api/v1/live-tournaments/"
+        + str(event_id)
+        + "/live-layouts?include=LiveLayoutDetails"
     )
     live_layout = requests.get(url, headers=headers).json()
 
     # Create list of ResultID's
     result_ids = []
-    baseurl = "https://www.pdga.com/apps/tournament/live-api/live_results_fetch_updated_round_scores?TournID=" + str(tournament_id) + "&Division="
+    baseurl = (
+        "https://www.pdga.com/apps/tournament/live-api/live_results_fetch_updated_round_scores?TournID="
+        + str(event_id)
+        + "&Division="
+    )
 
     for div in divisions:
         url = baseurl + div
@@ -89,7 +94,7 @@ def main(
     data["result_ids"] = result_ids
     data["results"] = results
 
-    with open(f"data/raw/{tournament_id}.pkl", "wb") as f:
+    with open(f"data/raw/{event_id}.pkl", "wb") as f:
         pickle.dump(data, f)
 
     return
