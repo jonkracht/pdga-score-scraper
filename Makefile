@@ -64,13 +64,10 @@ format:
 ## Make dataset
 .PHONY: data
 data: requirements
-	# TODO:  consolidate into mkdir -p data/{raw,...}
-	mkdir -p data/raw
-	mkdir -p data/interim
-	mkdir -p data/processed
-	mkdir -p data/external
-	$(PYTHON_INTERPRETER) pdga_score_scraper/dataset.py
-	$(PYTHON_INTERPRETER) pdga_score_scraper/features.py
+	#TODO:  Check if datasets already exists before re-downloading it
+	@read -p  "\nEnter event identification number:  " event_id; \
+	$(PYTHON_INTERPRETER) pdga_score_scraper/dataset.py $$event_id && $(PYTHON_INTERPRETER) pdga_score_scraper/features.py $$event_id
+
 
 
 #################################################################################
