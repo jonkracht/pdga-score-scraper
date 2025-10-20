@@ -11,6 +11,26 @@ Via the cookiecutter-data-science template:
 </a>
 
 
+
+## Procedure
+
+* Determine `event_id` for event of interest via its report page:  `https://www.pdga.com/tour/event/{event_id}`
+* Create virtual environment with specifications in `requirements.txt`.  Create virtual environment via Makefile command `make create_environment`.
+
+
+
+## Included datasets
+* 2025 Lost Valley Open
+* 2025 Hoodoo 
+
+
+
+
+## TODO
+* Extract hole pars from downloaded data rather than hardcode (notebook 2.01)
+* Export a csv for transmissibility
+* Randomize wait time for successive record scrapes
+
 ## References
 
 * Steve Wes - BRP vs. Maple Hill scoring:  https://discgolf.ultiworld.com/2016/08/04/statistical-breakdown-blue-ribbon-pines/
