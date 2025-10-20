@@ -21,15 +21,20 @@ Via the cookiecutter-data-science template:
 
 ## Included datasets
 * 2025 Lost Valley Open
-* 2025 Hoodoo 
+* 2025 Hoodoo (both Pro and Am days)
 
 
 
 
 ## TODO
 * Extract hole pars from downloaded data rather than hardcode (notebook 2.01)
-* Export a csv for transmissibility
-* Randomize wait time for successive record scrapes
+* More smartly handle environment creation (check if exists)
+
+
+## TODONE
+* Export csv
+* Random wait time between scrapes
+
 
 ## References
 
