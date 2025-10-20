@@ -1,4 +1,6 @@
 from pathlib import Path
+import random
+import sys
 
 from loguru import logger
 from tqdm import tqdm
@@ -16,10 +18,7 @@ app = typer.Typer()
 
 @app.command()
 def main(
-    # ---- REPLACE DEFAULT PATHS AS APPROPRIATE ----
-    input_path: Path = RAW_DATA_DIR / "dataset.csv",
-    output_path: Path = PROCESSED_DATA_DIR / "dataset.csv",
-    # ----------------------------------------------
+    event_id,
 ):
 
     headers = {
@@ -27,10 +26,6 @@ def main(
         "accept": "application/json, text/javascript, */*; q=0.01",
         "cookie": "cookie-agreed-version=1.0.1; clientSettings=%7B%22favoritePlayers%22%3A%5B%5D%2C%22showFavorites%22%3Atrue%2C%22metric%22%3Afalse%2C%22colorAccessibility%22%3Afalse%2C%22darkMode%22%3Atrue%2C%22throwTracker%22%3Atrue%2C%22userTimeZoneEnabled%22%3Atrue%7D",
     }
-
-    # Grab 'tournament_info'
-    # event_id = 89132
-    event_id = input("Enter tournamend ID:  ")  # TODO: allow user input
 
     url = "https://www.pdga.com/apps/tournament/live-api/live_results_fetch_event?TournID="
 
@@ -83,6 +78,10 @@ def main(
 
         time.sleep(1)  # don't overload server, 0.25s is too short
 
+        # Randomize wait times
+        pause = random.choice([0.5 + x / 100 for x in range(50)])
+        time.sleep(pause)
+
     logger.success("Completed grabbing scores.")
 
     # Place everything in a dictionary and pickle it
@@ -94,6 +93,7 @@ def main(
     data["result_ids"] = result_ids
     data["results"] = results
 
+    # TODO: use config filepaths
     with open(f"data/raw/{event_id}.pkl", "wb") as f:
         pickle.dump(data, f)
 

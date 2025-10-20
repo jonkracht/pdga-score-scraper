@@ -1,4 +1,5 @@
 from pathlib import Path
+import sys
 
 from loguru import logger
 from tqdm import tqdm
@@ -35,17 +36,13 @@ def parse_score(score):
 
 
 @app.command()
-def main(
-    # ---- REPLACE DEFAULT PATHS AS APPROPRIATE ----
-    input_path: Path = PROCESSED_DATA_DIR / "dataset.csv",
-    output_path: Path = PROCESSED_DATA_DIR / "features.csv",
-    # -----------------------------------------
-):
+def main(event_id):
 
     # Load raw data
-    tournament_id = input("\nEnter tournament ID:  ")
+    # event_id = input("\nEnter tournament ID:  ")
+    # event_id = sys.argv[1]
 
-    data = pd.read_pickle(f"data/raw/{tournament_id}.pkl")
+    data = pd.read_pickle(f"data/raw/{event_id}.pkl")
 
     rounds = []
 
@@ -274,7 +271,8 @@ def main(
     df["rating_effective_date"] = pd.to_datetime(df["rating_effective_date"])
 
     # TODO: incorporate environment variable paths
-    pd.to_pickle(df, f"data/processed/{tournament_id}-processed.pkl")
+    pd.to_pickle(df, f"data/processed/{event_id}-processed.pkl")
+    df.to_csv(f"data/processed/{event_id}-processed.csv")
 
 
 if __name__ == "__main__":
