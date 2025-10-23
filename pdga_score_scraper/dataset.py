@@ -94,8 +94,6 @@ def main(
     data["results"] = results
 
     # Save data
-
-    # TODO: use config filepaths
     with open(RAW_DATA_DIR / f"{event_id}.pkl", "wb") as f:
         pickle.dump(data, f)
 
