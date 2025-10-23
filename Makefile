@@ -64,7 +64,7 @@ format:
 ## Make dataset
 .PHONY: data
 data: requirements
-	#TODO:  Check if datasets already exists before re-downloading it
+	#TODO:  Check if datasets already exists before re-downloading it; newline character not rendered correctly
 	@read -p  "\nEnter event identification number:  " event_id; \
 	$(PYTHON_INTERPRETER) pdga_score_scraper/dataset.py $$event_id && $(PYTHON_INTERPRETER) pdga_score_scraper/features.py $$event_id
 
