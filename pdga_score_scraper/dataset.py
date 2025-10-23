@@ -93,8 +93,10 @@ def main(
     data["result_ids"] = result_ids
     data["results"] = results
 
+    # Save data
+
     # TODO: use config filepaths
-    with open(f"data/raw/{event_id}.pkl", "wb") as f:
+    with open(RAW_DATA_DIR / f"{event_id}.pkl", "wb") as f:
         pickle.dump(data, f)
 
     return
