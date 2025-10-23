@@ -29,6 +29,8 @@ Via the cookiecutter-data-science template:
 ## TODO
 * Extract hole pars from downloaded data rather than hardcode (notebook 2.01)
 * More smartly handle environment creation (check if exists)
+* Automate report creation with most relevant figures
+* Create linear regression of hole scores vs player rating to see how "accurately" scores are given to differentiate players
 
 
 ## TODONE
@@ -48,5 +50,12 @@ Via the cookiecutter-data-science template:
 * https://statmando.com/
 * Sex differences in disc golf:  https://pmc.ncbi.nlm.nih.gov/articles/PMC12294547/pdf/EJSC-25-e70008.pdf
 * https://discgolf.com/scoring-spread-in-course-design-and-how-to-defeat-it-tonns-travels/
+
 * https://www.pdga.com/files/discussion/archive/t-26901.html
-* https://www.dgcoursereview.com/threads/the-pdga-statistics.108991/
+Chuck Kennedy, allegedly:  A hole which yields > two-thirds or 70% the same score is an indicator of bad design.  (You want some variation to distinguish between the levels of the players.)
+What is the Course Design group?
+Perform analysis for ~50 point groups.  Maybe similar to by division.
+Color level of courses?
+
+
+* https://www.pdga.com/files/discussion/archive/t-26901.html
