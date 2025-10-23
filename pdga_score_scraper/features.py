@@ -1,5 +1,4 @@
 from pathlib import Path
-import sys
 
 from loguru import logger
 from tqdm import tqdm
@@ -7,7 +6,7 @@ import typer
 
 import pandas as pd
 
-from pdga_score_scraper.config import PROCESSED_DATA_DIR
+from pdga_score_scraper.config import RAW_DATA_DIR, PROCESSED_DATA_DIR
 
 app = typer.Typer()
 
@@ -42,7 +41,10 @@ def main(event_id):
     # event_id = input("\nEnter tournament ID:  ")
     # event_id = sys.argv[1]
 
-    data = pd.read_pickle(f"data/raw/{event_id}.pkl")
+    print(f"Processing data from event {event_id}.")
+
+    # data = pd.read_pickle(f"data/raw/{event_id}.pkl")
+    data = pd.read_pickle(RAW_DATA_DIR / f"{event_id}.pkl")
 
     rounds = []
 
@@ -270,9 +272,9 @@ def main(event_id):
 
     df["rating_effective_date"] = pd.to_datetime(df["rating_effective_date"])
 
-    # TODO: incorporate environment variable paths
-    pd.to_pickle(df, f"data/processed/{event_id}-processed.pkl")
-    df.to_csv(f"data/processed/{event_id}-processed.csv")
+    # Save data
+    pd.to_pickle(df, PROCESSED_DATA_DIR / f"{event_id}-processed.pkl")
+    df.to_csv(PROCESSED_DATA_DIR / f"{event_id}-processed.csv")
 
 
 if __name__ == "__main__":
