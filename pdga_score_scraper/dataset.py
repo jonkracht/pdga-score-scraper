@@ -1,6 +1,4 @@
-from pathlib import Path
 import random
-import sys
 
 from loguru import logger
 from tqdm import tqdm
@@ -11,7 +9,7 @@ import requests
 import time
 
 
-from pdga_score_scraper.config import PROCESSED_DATA_DIR, RAW_DATA_DIR
+from pdga_score_scraper.config import RAW_DATA_DIR
 
 app = typer.Typer()
 
