@@ -4,9 +4,10 @@ from loguru import logger
 from tqdm import tqdm
 import typer
 
+import json
 import pandas as pd
 
-from pdga_score_scraper.config import RAW_DATA_DIR, PROCESSED_DATA_DIR
+from pdga_score_scraper.config import RAW_DATA_DIR, PROCESSED_DATA_DIR, INTERIM_DATA_DIR
 
 app = typer.Typer()
 
@@ -275,6 +276,17 @@ def main(event_id):
     # Save data
     pd.to_pickle(df, PROCESSED_DATA_DIR / f"{event_id}-processed.pkl")
     df.to_csv(PROCESSED_DATA_DIR / f"{event_id}-processed.csv")
+
+    # Save event metadata as well
+    metadata = {}
+
+    metadata["tournament_info"] = data["tournament_info"]
+    metadata["live_layout"] = data["live_layout"]
+
+    with open(INTERIM_DATA_DIR / f"{event_id}.json", "w") as f:
+        json.dump(metadata, f)
+
+    return
 
 
 if __name__ == "__main__":
