@@ -29,8 +29,8 @@ Via the cookiecutter-data-science template:
 ## TODO
 * Extract hole pars from downloaded data rather than hardcode (notebook 2.01)
 * More smartly handle environment creation (check if exists)
-* Automate report creation with most relevant figures
 * Create linear regression of hole scores vs player rating to see how "accurately" scores are given to differentiate players
+* How to automate report creation?  Figures in correct order
 
 
 ## TODONE
