@@ -277,7 +277,7 @@ def main(event_id):
     # pd.to_pickle(df, PROCESSED_DATA_DIR / f"{event_id}-processed.pkl")
     # df.to_csv(PROCESSED_DATA_DIR / f"{event_id}-processed.csv")
 
-    df.to_json(PROCESSED_DATA_DIR / f"{event_id}-processed.json", indent=4)
+    df.to_json(PROCESSED_DATA_DIR / f"{event_id}-processed.json", indent=4, orient="records")
 
     # Save event metadata as well
     metadata = {}
