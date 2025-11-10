@@ -20,8 +20,9 @@ Via the cookiecutter-data-science template:
 
 
 ## Included datasets
-* 2025 Lost Valley Open
-* 2025 Hoodoo (both Pro and Am days)
+* 2025 Lost Valley Open (89132)
+* 2025 Hoodoo Pro Day (89433)
+* 2025 Hoodoo Pro Day (89437)
 
 
 
@@ -31,6 +32,23 @@ Via the cookiecutter-data-science template:
 * More smartly handle environment creation (check if exists)
 * Create linear regression of hole scores vs player rating to see how "accurately" scores are given to differentiate players
 * How to automate report creation?  Figures in correct order
+* Include a pdf of data in the data directory for readibility
+
+
+```
+# Install necessary tools (if not already installed)
+sudo apt-get install jq python3-pygments wkhtmltopdf aha # for Debian/Ubuntu-based systems
+
+# 1. Pretty-print JSON
+cat input.json | jq . > pretty.json
+
+# 2. Add syntax highlighting and convert to HTML
+pygmentize -l json pretty.json | aha > highlighted.html
+
+# 3. Convert HTML to PDF
+wkhtmltopdf highlighted.html output.pdf
+```
+
 
 
 ## TODONE
