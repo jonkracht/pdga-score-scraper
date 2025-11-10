@@ -1,0 +1,492 @@
+{
+    "tournament_info": {
+        "DateRange": "Saturday, Oct 18, 2025",
+        "EndDate": "2025-10-18",
+        "Country": "United States",
+        "Location": "Quakertown, Pennsylvania",
+        "LocationShort": "Quakertown, PA",
+        "Divisions": [
+            {
+                "DivisionID": 100,
+                "Division": "MPO",
+                "DivisionName": "Mixed Pro Open",
+                "Players": 31,
+                "IsPro": true,
+                "ShortName": "Mixed Pro Open",
+                "AbbreviatedName": "Mixed Pro Open",
+                "LatestRound": 2
+            },
+            {
+                "DivisionID": 111,
+                "Division": "MP40",
+                "DivisionName": "Mixed Pro 40+",
+                "Players": 4,
+                "IsPro": true,
+                "ShortName": "Mixed Pro 40+",
+                "AbbreviatedName": "Mixed Pro 40+",
+                "LatestRound": 2
+            },
+            {
+                "DivisionID": 121,
+                "Division": "MP50",
+                "DivisionName": "Mixed Pro 50+",
+                "Players": 5,
+                "IsPro": true,
+                "ShortName": "Mixed Pro 50+",
+                "AbbreviatedName": "Mixed Pro 50+",
+                "LatestRound": 2
+            },
+            {
+                "DivisionID": 400,
+                "Division": "MA1",
+                "DivisionName": "Mixed Amateur 1",
+                "Players": 20,
+                "IsPro": false,
+                "ShortName": "Mixed Amateur 1",
+                "AbbreviatedName": "Mixed Am 1",
+                "LatestRound": 2
+            }
+        ],
+        "Finals": "no",
+        "HighestCompletedRound": 2,
+        "LatestRound": 2,
+        "FinalRound": 2,
+        "Layouts": [
+            {
+                "LayoutID": 721578,
+                "CourseID": 25812,
+                "CourseName": "Nockamixon State Park",
+                "Name": "HooDoo",
+                "Holes": 18,
+                "Par": 68,
+                "Length": 9289,
+                "Units": "Feet",
+                "Accuracy": "M",
+                "Details": [
+                    {
+                        "Hole": "H1",
+                        "Label": "1",
+                        "Par": 5,
+                        "Length": 845
+                    },
+                    {
+                        "Hole": "H2",
+                        "Label": "2",
+                        "Par": 4,
+                        "Length": 447
+                    },
+                    {
+                        "Hole": "H3",
+                        "Label": "3",
+                        "Par": 3,
+                        "Length": 220
+                    },
+                    {
+                        "Hole": "H4",
+                        "Label": "4",
+                        "Par": 4,
+                        "Length": 644
+                    },
+                    {
+                        "Hole": "H5",
+                        "Label": "5",
+                        "Par": 3,
+                        "Length": 304
+                    },
+                    {
+                        "Hole": "H6",
+                        "Label": "6",
+                        "Par": 4,
+                        "Length": 626
+                    },
+                    {
+                        "Hole": "H7",
+                        "Label": "7",
+                        "Par": 3,
+                        "Length": 390
+                    },
+                    {
+                        "Hole": "H8",
+                        "Label": "8",
+                        "Par": 4,
+                        "Length": 570
+                    },
+                    {
+                        "Hole": "H9",
+                        "Label": "9",
+                        "Par": 4,
+                        "Length": 541
+                    },
+                    {
+                        "Hole": "H10",
+                        "Label": "10",
+                        "Par": 4,
+                        "Length": 565
+                    },
+                    {
+                        "Hole": "H11",
+                        "Label": "11",
+                        "Par": 4,
+                        "Length": 404
+                    },
+                    {
+                        "Hole": "H12",
+                        "Label": "12",
+                        "Par": 3,
+                        "Length": 317
+                    },
+                    {
+                        "Hole": "H13",
+                        "Label": "13",
+                        "Par": 4,
+                        "Length": 617
+                    },
+                    {
+                        "Hole": "H14",
+                        "Label": "14",
+                        "Par": 5,
+                        "Length": 769
+                    },
+                    {
+                        "Hole": "H15",
+                        "Label": "15",
+                        "Par": 3,
+                        "Length": 358
+                    },
+                    {
+                        "Hole": "H16",
+                        "Label": "16",
+                        "Par": 3,
+                        "Length": 377
+                    },
+                    {
+                        "Hole": "H17",
+                        "Label": "17",
+                        "Par": 4,
+                        "Length": 542
+                    },
+                    {
+                        "Hole": "H18",
+                        "Label": "18",
+                        "Par": 4,
+                        "Length": 753
+                    }
+                ]
+            }
+        ],
+        "Name": "The Hoodoo Presented by OTB East and Discraft - MPO, FPO, MP40, FP40, MP50, FP50, MA1",
+        "NameHtml": "The Hoodoo Presented by OTB East and Discraft - MPO, FPO, MP40, FP40, MP50, FP50, MA1",
+        "MultiLineName": {
+            "pre": "",
+            "main": "The Hoodoo",
+            "post": "Presented by OTB East and Discraft - MPO, FPO, MP40, FP40, MP50, FP50, MA1"
+        },
+        "MultiLineNameHtml": " <span class=\"event-name-main\">The Hoodoo</span> <span class=\"event-name-post\">Presented by OTB East and Discraft - MPO, FPO, MP40, FP40, MP50, FP50, MA1</span>",
+        "RawTier": "B",
+        "Rounds": 2,
+        "RoundsList": {
+            "1": {
+                "Number": 1,
+                "Label": "Round 1",
+                "LabelAbbreviated": "Rd 1",
+                "Date": "2025-10-18",
+                "DateAbbreviated": "Oct 18",
+                "ShowDate": false
+            },
+            "2": {
+                "Number": 2,
+                "Label": "Round 2",
+                "LabelAbbreviated": "Rd 2",
+                "Date": "2025-10-18",
+                "DateAbbreviated": "Oct 18",
+                "ShowDate": false
+            }
+        },
+        "Semis": "no",
+        "SimpleName": "The Hoodoo",
+        "StartDate": "2025-10-18",
+        "TDName": "Steve Braud",
+        "TDPDGANum": 16027,
+        "Tier": "B",
+        "FormattedTier": "B-Tier",
+        "FormattedLongTier": "B-Tier",
+        "TierPro": "B",
+        "TierAm": "B",
+        "TierX": false,
+        "TotalPlayers": 60,
+        "TournamentId": "89433",
+        "International": false,
+        "FullStats": true,
+        "TimeZone": "America/New_York",
+        "AdditionalEventInfo": null,
+        "EventVideo": null,
+        "ScoringFormat": "S"
+    },
+    "live_layout": [
+        {
+            "layoutId": 721578,
+            "courseId": 25812,
+            "courseName": "Nockamixon State Park",
+            "tournId": 89433,
+            "name": "HooDoo",
+            "holes": 18,
+            "par": 68,
+            "length": 9289,
+            "units": "Feet",
+            "accuracy": "M",
+            "notes": "",
+            "ssaRd1": 66.027,
+            "ssaRd2": 65.758,
+            "ssaRd3": null,
+            "ssaRd4": null,
+            "ssaRd5": null,
+            "ssaRd6": null,
+            "ssaRd7": null,
+            "ssaRd8": null,
+            "ssaRd9": null,
+            "ssaRd10": null,
+            "ssaSemis": null,
+            "ssaFinals": null,
+            "combinedSSA": null,
+            "provisionalSSA": null,
+            "challengeFactor": null,
+            "updateDate": "2025-10-21T13:44:02+00:00",
+            "liveLayoutDetails": [
+                {
+                    "layoutDetailId": 19637361,
+                    "layoutId": 721578,
+                    "hole": "H1",
+                    "holeOrdinal": 1,
+                    "label": "1",
+                    "tee": null,
+                    "target": null,
+                    "par": 5,
+                    "length": 845,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637362,
+                    "layoutId": 721578,
+                    "hole": "H2",
+                    "holeOrdinal": 2,
+                    "label": "2",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 447,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637363,
+                    "layoutId": 721578,
+                    "hole": "H3",
+                    "holeOrdinal": 3,
+                    "label": "3",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": 220,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637364,
+                    "layoutId": 721578,
+                    "hole": "H4",
+                    "holeOrdinal": 4,
+                    "label": "4",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 644,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637365,
+                    "layoutId": 721578,
+                    "hole": "H5",
+                    "holeOrdinal": 5,
+                    "label": "5",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": 304,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637366,
+                    "layoutId": 721578,
+                    "hole": "H6",
+                    "holeOrdinal": 6,
+                    "label": "6",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 626,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637367,
+                    "layoutId": 721578,
+                    "hole": "H7",
+                    "holeOrdinal": 7,
+                    "label": "7",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": 390,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637368,
+                    "layoutId": 721578,
+                    "hole": "H8",
+                    "holeOrdinal": 8,
+                    "label": "8",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 570,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637369,
+                    "layoutId": 721578,
+                    "hole": "H9",
+                    "holeOrdinal": 9,
+                    "label": "9",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 541,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637370,
+                    "layoutId": 721578,
+                    "hole": "H10",
+                    "holeOrdinal": 10,
+                    "label": "10",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 565,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637371,
+                    "layoutId": 721578,
+                    "hole": "H11",
+                    "holeOrdinal": 11,
+                    "label": "11",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 404,
+                    "notes": "Pavement and flagged area short of the basket play a hazard. Anything long and Right of the green, normal OB rules apply",
+                    "updateDate": "2025-10-17T20:29:41+00:00"
+                },
+                {
+                    "layoutDetailId": 19637372,
+                    "layoutId": 721578,
+                    "hole": "H12",
+                    "holeOrdinal": 12,
+                    "label": "12",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": 317,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637373,
+                    "layoutId": 721578,
+                    "hole": "H13",
+                    "holeOrdinal": 13,
+                    "label": "13",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 617,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637374,
+                    "layoutId": 721578,
+                    "hole": "H14",
+                    "holeOrdinal": 14,
+                    "label": "14",
+                    "tee": null,
+                    "target": null,
+                    "par": 5,
+                    "length": 769,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637375,
+                    "layoutId": 721578,
+                    "hole": "H15",
+                    "holeOrdinal": 15,
+                    "label": "15",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": 358,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637376,
+                    "layoutId": 721578,
+                    "hole": "H16",
+                    "holeOrdinal": 16,
+                    "label": "16",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": 377,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637377,
+                    "layoutId": 721578,
+                    "hole": "H17",
+                    "holeOrdinal": 17,
+                    "label": "17",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 542,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                },
+                {
+                    "layoutDetailId": 19637378,
+                    "layoutId": 721578,
+                    "hole": "H18",
+                    "holeOrdinal": 18,
+                    "label": "18",
+                    "tee": null,
+                    "target": null,
+                    "par": 4,
+                    "length": 753,
+                    "notes": null,
+                    "updateDate": "2025-10-17T20:28:48+00:00"
+                }
+            ]
+        }
+    ]
+}
