@@ -3,7 +3,7 @@ import random
 from loguru import logger
 from tqdm import tqdm
 import typer
-
+import json
 import pickle
 import requests
 import time
@@ -15,9 +15,7 @@ app = typer.Typer()
 
 
 @app.command()
-def main(
-    event_id,
-):
+def main(event_id):
 
     headers = {
         "value": "application/json, text/javascript, */*; q=0.01",
@@ -82,7 +80,7 @@ def main(
 
     logger.success("Completed grabbing scores.")
 
-    # Place everything in a dictionary and pickle it
+    # Place everything in a dictionary and save to a json file
     data = {}
 
     data["tournament_info"] = tournament_info
@@ -91,9 +89,8 @@ def main(
     data["result_ids"] = result_ids
     data["results"] = results
 
-    # Save data
-    with open(RAW_DATA_DIR / f"{event_id}.pkl", "wb") as f:
-        pickle.dump(data, f)
+    with open(RAW_DATA_DIR / f"{event_id}.json", "w") as file:
+        json.dump(data, file, indent=4)
 
     return
 

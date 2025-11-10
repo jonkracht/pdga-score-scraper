@@ -7,7 +7,7 @@ import typer
 import json
 import pandas as pd
 
-from pdga_score_scraper.config import RAW_DATA_DIR, PROCESSED_DATA_DIR, INTERIM_DATA_DIR
+from pdga_score_scraper.config import RAW_DATA_DIR, PROCESSED_DATA_DIR
 
 app = typer.Typer()
 
@@ -44,8 +44,8 @@ def main(event_id):
 
     print(f"Processing data from event {event_id}.")
 
-    # data = pd.read_pickle(f"data/raw/{event_id}.pkl")
-    data = pd.read_pickle(RAW_DATA_DIR / f"{event_id}.pkl")
+    with open(RAW_DATA_DIR / f"{event_id}.json", "r") as file:
+        data = json.load(file)
 
     rounds = []
 
@@ -274,8 +274,10 @@ def main(event_id):
     df["rating_effective_date"] = pd.to_datetime(df["rating_effective_date"])
 
     # Save data
-    pd.to_pickle(df, PROCESSED_DATA_DIR / f"{event_id}-processed.pkl")
-    df.to_csv(PROCESSED_DATA_DIR / f"{event_id}-processed.csv")
+    # pd.to_pickle(df, PROCESSED_DATA_DIR / f"{event_id}-processed.pkl")
+    # df.to_csv(PROCESSED_DATA_DIR / f"{event_id}-processed.csv")
+
+    df.to_json(PROCESSED_DATA_DIR / f"{event_id}-processed.json", indent=4)
 
     # Save event metadata as well
     metadata = {}
@@ -283,8 +285,8 @@ def main(event_id):
     metadata["tournament_info"] = data["tournament_info"]
     metadata["live_layout"] = data["live_layout"]
 
-    with open(INTERIM_DATA_DIR / f"{event_id}.json", "w") as f:
-        json.dump(metadata, f)
+    with open(PROCESSED_DATA_DIR / f"{event_id}-metadata-procssed.json", "w") as f:
+        json.dump(metadata, f, indent=4)
 
     return
 
