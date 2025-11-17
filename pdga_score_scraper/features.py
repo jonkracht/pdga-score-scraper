@@ -212,7 +212,7 @@ def main(event_id):
     df["score_to_par"] = df.score_to_par.replace({"E": 0})
     df["score_to_par"] = df.score_to_par.astype(int)
 
-    ## Reorder columns for readability
+    ## Reorder columns to a sensible order
     new_col_order = [
         "first_name",
         "last_name",
@@ -271,6 +271,7 @@ def main(event_id):
 
     df = df[new_col_order].copy()
 
+    # TODO:  Not appearing correctly in "final" json export
     df["rating_effective_date"] = pd.to_datetime(df["rating_effective_date"])
 
     # Save data
@@ -285,7 +286,7 @@ def main(event_id):
     metadata["tournament_info"] = data["tournament_info"]
     metadata["live_layout"] = data["live_layout"]
 
-    with open(PROCESSED_DATA_DIR / f"{event_id}-metadata-procssed.json", "w") as f:
+    with open(PROCESSED_DATA_DIR / f"{event_id}-metadata-processed.json", "w") as f:
         json.dump(metadata, f, indent=4)
 
     return
