@@ -69,6 +69,26 @@ data: requirements
 	$(PYTHON_INTERPRETER) pdga_score_scraper/dataset.py $$event_id && $(PYTHON_INTERPRETER) pdga_score_scraper/features.py $$event_id
 
 
+## Create report
+.PHONY: make_report
+make_report:
+	@read -p  "\nEnter event identification number:  " event_id 
+
+	# Name of notebook WITHOUT .ipynb extension
+	notebookName="4.01-jk-eda-report"
+	
+	# Run notebook
+	jupyter-nbconvert --to notebook --execute --inplace "notebooks/4.01-jk-eda-report.ipynb" --Execute.Preprocessor.kernel_name=pdga_score_scraper
+
+	#currentDate=`date +"%Y-%m-%d"`
+
+	#pdfName="$(event_id)-report-$(currentDate).pdf"
+	pdfName="test.pdf"
+
+	# Convert to pdf
+	#jupyter-nbconvert $$notebookName --to pdf --output "reports/$pdfName"
+	jupyter-nbconvert "notebooks/4.01-jk-eda-report.ipynb" --to pdf --output-dir="reports" --output "test.pdf"
+
 
 #################################################################################
 # Self Documenting Commands                                                     #
