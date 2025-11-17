@@ -71,23 +71,10 @@ data: requirements
 
 ## Create report
 .PHONY: make_report
-make_report:
-	@read -p  "\nEnter event identification number:  " event_id 
-
-	# Name of notebook WITHOUT .ipynb extension
-	notebookName="4.01-jk-eda-report"
-	
-	# Run notebook
-	jupyter-nbconvert --to notebook --execute --inplace "notebooks/4.01-jk-eda-report.ipynb" --Execute.Preprocessor.kernel_name=pdga_score_scraper
-
-	#currentDate=`date +"%Y-%m-%d"`
-
-	#pdfName="$(event_id)-report-$(currentDate).pdf"
-	pdfName="test.pdf"
-
-	# Convert to pdf
-	#jupyter-nbconvert $$notebookName --to pdf --output "reports/$pdfName"
-	jupyter-nbconvert "notebooks/4.01-jk-eda-report.ipynb" --to pdf --output-dir="reports" --output "test.pdf"
+generate_report:
+	@read -p  "Enter event identification number:  " event_id;  \
+	NB_ARGS=$$event_id jupyter-nbconvert --to notebook --execute --inplace "notebooks/4.01-jk-eda-report.ipynb" --Execute.Preprocessor.kernel_name=$(PROJECT_NAME); \
+	jupyter-nbconvert "notebooks/4.01-jk-eda-report.ipynb" --to pdf --output-dir="reports" --output "test.pdf";
 
 
 #################################################################################
