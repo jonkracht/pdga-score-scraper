@@ -33,6 +33,7 @@ Via the cookiecutter-data-science template:
 * Create linear regression of hole scores vs player rating to see how "accurately" scores are given to differentiate players
 * How to automate report creation?  Figures in correct order
 * Include a pdf of data in the data directory for readibility
+* How to create report?  Save individual figures/png and assemble report or use jupyternbexport
 
 
 ```
