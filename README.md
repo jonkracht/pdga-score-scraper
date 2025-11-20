@@ -34,6 +34,7 @@ Via the cookiecutter-data-science template:
 * How to automate report creation?  Figures in correct order
 * Include a pdf of data in the data directory for readibility
 * How to create report?  Save individual figures/png and assemble report or use jupyternbexport
+* Do older tournaments use same data format?  2017 HooDoo (event 3400) breaks data pull routine
 
 
 ```
