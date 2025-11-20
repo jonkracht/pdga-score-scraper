@@ -1,0 +1,500 @@
+{
+    "tournament_info": {
+        "DateRange": "Sunday, Oct 8, 2017",
+        "EndDate": "2017-10-08",
+        "Country": "United States",
+        "Location": "Quakertown, Pennsylvania",
+        "LocationShort": "Quakertown, PA",
+        "Divisions": [
+            {
+                "DivisionID": 100,
+                "Division": "MPO",
+                "DivisionName": "Open",
+                "Players": 44,
+                "IsPro": true,
+                "ShortName": "Open",
+                "AbbreviatedName": "Open",
+                "LatestRound": 2
+            },
+            {
+                "DivisionID": 105,
+                "Division": "FPO",
+                "DivisionName": "Open Women",
+                "Players": 1,
+                "IsPro": true,
+                "ShortName": "Open Women",
+                "AbbreviatedName": "Open Women",
+                "LatestRound": 2
+            },
+            {
+                "DivisionID": 110,
+                "Division": "MPM",
+                "DivisionName": "Masters",
+                "Players": 6,
+                "IsPro": true,
+                "ShortName": "Masters",
+                "AbbreviatedName": "Masters",
+                "LatestRound": 2
+            },
+            {
+                "DivisionID": 120,
+                "Division": "MPG",
+                "DivisionName": "Grandmasters",
+                "Players": 10,
+                "IsPro": true,
+                "ShortName": "Grandmasters",
+                "AbbreviatedName": "Grandmasters",
+                "LatestRound": 2
+            }
+        ],
+        "Finals": "no",
+        "HighestCompletedRound": null,
+        "LatestRound": 2,
+        "FinalRound": 2,
+        "Layouts": [
+            {
+                "LayoutID": 142506,
+                "CourseID": 25812,
+                "CourseName": "Nockamixon State Park",
+                "Name": "Default Layout",
+                "Holes": 18,
+                "Par": 68,
+                "Length": 9188,
+                "Units": null,
+                "Accuracy": "M",
+                "Details": [
+                    {
+                        "Hole": "H1",
+                        "Label": "1",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H2",
+                        "Label": "2",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H3",
+                        "Label": "3",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H4",
+                        "Label": "4",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H5",
+                        "Label": "5",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H6",
+                        "Label": "6",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H7",
+                        "Label": "7",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H8",
+                        "Label": "8",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H9",
+                        "Label": "9",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H10",
+                        "Label": "10",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H11",
+                        "Label": "11",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H12",
+                        "Label": "12",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H13",
+                        "Label": "13",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H14",
+                        "Label": "14",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H15",
+                        "Label": "15",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H16",
+                        "Label": "16",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H17",
+                        "Label": "17",
+                        "Par": 3,
+                        "Length": null
+                    },
+                    {
+                        "Hole": "H18",
+                        "Label": "18",
+                        "Par": 3,
+                        "Length": null
+                    }
+                ]
+            }
+        ],
+        "Name": "Nocki Hoodoo 8 - Pros",
+        "NameHtml": "Nocki Hoodoo 8 - Pros",
+        "MultiLineName": {
+            "pre": "",
+            "main": "Nocki Hoodoo 8 - Pros",
+            "post": ""
+        },
+        "MultiLineNameHtml": " <span class=\"event-name-main\">Nocki Hoodoo 8 - Pros</span>",
+        "RawTier": "C",
+        "Rounds": 2,
+        "RoundsList": {
+            "1": {
+                "Number": 1,
+                "Label": "Round 1",
+                "LabelAbbreviated": "Rd 1",
+                "Date": "2017-10-08",
+                "DateAbbreviated": "Oct 8",
+                "ShowDate": false
+            },
+            "2": {
+                "Number": 2,
+                "Label": "Round 2",
+                "LabelAbbreviated": "Rd 2",
+                "Date": "2017-10-08",
+                "DateAbbreviated": "Oct 8",
+                "ShowDate": false
+            }
+        },
+        "Semis": "no",
+        "SimpleName": "Nocki Hoodoo 8 - Pros",
+        "StartDate": "2017-10-08",
+        "TDName": "Mike Solt",
+        "TDPDGANum": 32429,
+        "Tier": "C",
+        "FormattedTier": "C-Tier",
+        "FormattedLongTier": "C-Tier",
+        "TierPro": "C",
+        "TierAm": "C",
+        "TierX": false,
+        "TotalPlayers": 61,
+        "TournamentId": "34000",
+        "International": false,
+        "FullStats": true,
+        "TimeZone": null,
+        "AdditionalEventInfo": null,
+        "EventVideo": null,
+        "ScoringFormat": "S"
+    },
+    "divisions": [
+        "MPO",
+        "FPO",
+        "MPM",
+        "MPG"
+    ],
+    "live_layout": [
+        {
+            "layoutId": 142506,
+            "courseId": 25812,
+            "courseName": "Nockamixon State Park",
+            "tournId": 34000,
+            "name": "Default Layout",
+            "holes": 18,
+            "par": 68,
+            "length": 9188,
+            "units": null,
+            "accuracy": "M",
+            "notes": null,
+            "ssaRd1": 65.356,
+            "ssaRd2": 64.441,
+            "ssaRd3": null,
+            "ssaRd4": null,
+            "ssaRd5": null,
+            "ssaRd6": null,
+            "ssaRd7": null,
+            "ssaRd8": null,
+            "ssaRd9": null,
+            "ssaRd10": null,
+            "ssaSemis": null,
+            "ssaFinals": null,
+            "combinedSSA": null,
+            "provisionalSSA": null,
+            "challengeFactor": null,
+            "updateDate": "2010-06-12T06:00:00+00:00",
+            "liveLayoutDetails": [
+                {
+                    "layoutDetailId": 17371104,
+                    "layoutId": 142506,
+                    "hole": "H1",
+                    "holeOrdinal": 1,
+                    "label": "1",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371105,
+                    "layoutId": 142506,
+                    "hole": "H2",
+                    "holeOrdinal": 2,
+                    "label": "2",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371106,
+                    "layoutId": 142506,
+                    "hole": "H3",
+                    "holeOrdinal": 3,
+                    "label": "3",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371107,
+                    "layoutId": 142506,
+                    "hole": "H4",
+                    "holeOrdinal": 4,
+                    "label": "4",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371108,
+                    "layoutId": 142506,
+                    "hole": "H5",
+                    "holeOrdinal": 5,
+                    "label": "5",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371109,
+                    "layoutId": 142506,
+                    "hole": "H6",
+                    "holeOrdinal": 6,
+                    "label": "6",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371110,
+                    "layoutId": 142506,
+                    "hole": "H7",
+                    "holeOrdinal": 7,
+                    "label": "7",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371111,
+                    "layoutId": 142506,
+                    "hole": "H8",
+                    "holeOrdinal": 8,
+                    "label": "8",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371112,
+                    "layoutId": 142506,
+                    "hole": "H9",
+                    "holeOrdinal": 9,
+                    "label": "9",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371113,
+                    "layoutId": 142506,
+                    "hole": "H10",
+                    "holeOrdinal": 10,
+                    "label": "10",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371114,
+                    "layoutId": 142506,
+                    "hole": "H11",
+                    "holeOrdinal": 11,
+                    "label": "11",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371115,
+                    "layoutId": 142506,
+                    "hole": "H12",
+                    "holeOrdinal": 12,
+                    "label": "12",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371116,
+                    "layoutId": 142506,
+                    "hole": "H13",
+                    "holeOrdinal": 13,
+                    "label": "13",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371117,
+                    "layoutId": 142506,
+                    "hole": "H14",
+                    "holeOrdinal": 14,
+                    "label": "14",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371118,
+                    "layoutId": 142506,
+                    "hole": "H15",
+                    "holeOrdinal": 15,
+                    "label": "15",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371119,
+                    "layoutId": 142506,
+                    "hole": "H16",
+                    "holeOrdinal": 16,
+                    "label": "16",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371120,
+                    "layoutId": 142506,
+                    "hole": "H17",
+                    "holeOrdinal": 17,
+                    "label": "17",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                },
+                {
+                    "layoutDetailId": 17371121,
+                    "layoutId": 142506,
+                    "hole": "H18",
+                    "holeOrdinal": 18,
+                    "label": "18",
+                    "tee": null,
+                    "target": null,
+                    "par": 3,
+                    "length": null,
+                    "notes": null,
+                    "updateDate": "2024-11-18T17:09:19+00:00"
+                }
+            ]
+        }
+    ],
+    "result_ids": [],
+    "results": []
+}
