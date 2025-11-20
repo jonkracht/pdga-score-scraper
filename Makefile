@@ -70,11 +70,11 @@ data: requirements
 
 
 ## Create report
-.PHONY: make_report
-generate_report:
+.PHONY: create_report
+create_report:
 	@read -p  "Enter event identification number:  " event_id;  \
 	NB_ARGS=$$event_id jupyter-nbconvert --to notebook --execute --inplace "notebooks/4.01-jk-eda-report.ipynb" --Execute.Preprocessor.kernel_name=$(PROJECT_NAME); \
-	jupyter-nbconvert "notebooks/4.01-jk-eda-report.ipynb" --to pdf --output-dir="reports" --output "test.pdf";
+	jupyter-nbconvert "notebooks/4.01-jk-eda-report.ipynb" --to pdf --output-dir="reports" --output $$event_id;
 
 
 #################################################################################
