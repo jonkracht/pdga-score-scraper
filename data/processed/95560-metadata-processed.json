@@ -1,0 +1,868 @@
+{
+    "tournament_info": {
+        "DateRange": "Sunday, Sep 14, 2025",
+        "EndDate": "2025-09-14",
+        "Country": "United States",
+        "Location": "Pittstown, New Jersey",
+        "LocationShort": "Pittstown, NJ",
+        "Divisions": [
+            {
+                "DivisionID": 100,
+                "Division": "MPO",
+                "DivisionName": "Mixed Pro Open",
+                "Players": 47,
+                "IsPro": true,
+                "ShortName": "Mixed Pro Open",
+                "AbbreviatedName": "Mixed Pro Open",
+                "LatestRound": 2
+            },
+            {
+                "DivisionID": 105,
+                "Division": "FPO",
+                "DivisionName": "Women's Pro Open",
+                "Players": 1,
+                "IsPro": true,
+                "ShortName": "Women's Pro Open",
+                "AbbreviatedName": "Women's Pro Open",
+                "LatestRound": 2
+            },
+            {
+                "DivisionID": 121,
+                "Division": "MP50",
+                "DivisionName": "Mixed Pro 50+",
+                "Players": 12,
+                "IsPro": true,
+                "ShortName": "Mixed Pro 50+",
+                "AbbreviatedName": "Mixed Pro 50+",
+                "LatestRound": 2
+            }
+        ],
+        "Finals": "no",
+        "HighestCompletedRound": 2,
+        "LatestRound": 2,
+        "FinalRound": 2,
+        "Layouts": [
+            {
+                "LayoutID": 729830,
+                "CourseID": 206491,
+                "CourseName": "Camp Tecumseh",
+                "Name": "Tecumseh Takeover 2025 Pro Day Layout",
+                "Holes": 18,
+                "Par": 62,
+                "Length": 8766,
+                "Units": "Feet",
+                "Accuracy": "M",
+                "Details": [
+                    {
+                        "Hole": "H1",
+                        "Label": "1",
+                        "Par": 3,
+                        "Length": 328
+                    },
+                    {
+                        "Hole": "H2",
+                        "Label": "2",
+                        "Par": 4,
+                        "Length": 568
+                    },
+                    {
+                        "Hole": "H3",
+                        "Label": "3",
+                        "Par": 3,
+                        "Length": 371
+                    },
+                    {
+                        "Hole": "H4",
+                        "Label": "4S",
+                        "Par": 4,
+                        "Length": 656
+                    },
+                    {
+                        "Hole": "H5",
+                        "Label": "6",
+                        "Par": 3,
+                        "Length": 234
+                    },
+                    {
+                        "Hole": "H6",
+                        "Label": "7",
+                        "Par": 5,
+                        "Length": 755
+                    },
+                    {
+                        "Hole": "H7",
+                        "Label": "8",
+                        "Par": 3,
+                        "Length": 424
+                    },
+                    {
+                        "Hole": "H8",
+                        "Label": "9",
+                        "Par": 4,
+                        "Length": 641
+                    },
+                    {
+                        "Hole": "H9",
+                        "Label": "10",
+                        "Par": 3,
+                        "Length": 317
+                    },
+                    {
+                        "Hole": "H10",
+                        "Label": "11",
+                        "Par": 4,
+                        "Length": 503
+                    },
+                    {
+                        "Hole": "H11",
+                        "Label": "12",
+                        "Par": 3,
+                        "Length": 401
+                    },
+                    {
+                        "Hole": "H12",
+                        "Label": "13",
+                        "Par": 3,
+                        "Length": 282
+                    },
+                    {
+                        "Hole": "H13",
+                        "Label": "14",
+                        "Par": 3,
+                        "Length": 531
+                    },
+                    {
+                        "Hole": "H14",
+                        "Label": "16",
+                        "Par": 3,
+                        "Length": 336
+                    },
+                    {
+                        "Hole": "H15",
+                        "Label": "B",
+                        "Par": 3,
+                        "Length": 437
+                    },
+                    {
+                        "Hole": "H16",
+                        "Label": "C",
+                        "Par": 4,
+                        "Length": 639
+                    },
+                    {
+                        "Hole": "H17",
+                        "Label": "17",
+                        "Par": 3,
+                        "Length": 441
+                    },
+                    {
+                        "Hole": "H18",
+                        "Label": "18",
+                        "Par": 4,
+                        "Length": 902
+                    }
+                ]
+            },
+            {
+                "LayoutID": 729831,
+                "CourseID": 206491,
+                "CourseName": "Camp Tecumseh",
+                "Name": "Tecumseh Takeover 2025 Pro Day FPO Layout",
+                "Holes": 18,
+                "Par": 66,
+                "Length": 8667,
+                "Units": "Feet",
+                "Accuracy": "M",
+                "Details": [
+                    {
+                        "Hole": "H1",
+                        "Label": "1",
+                        "Par": 3,
+                        "Length": 229
+                    },
+                    {
+                        "Hole": "H2",
+                        "Label": "2",
+                        "Par": 4,
+                        "Length": 568
+                    },
+                    {
+                        "Hole": "H3",
+                        "Label": "3",
+                        "Par": 3,
+                        "Length": 371
+                    },
+                    {
+                        "Hole": "H4",
+                        "Label": "4S",
+                        "Par": 4,
+                        "Length": 656
+                    },
+                    {
+                        "Hole": "H5",
+                        "Label": "6",
+                        "Par": 3,
+                        "Length": 234
+                    },
+                    {
+                        "Hole": "H6",
+                        "Label": "7",
+                        "Par": 5,
+                        "Length": 755
+                    },
+                    {
+                        "Hole": "H7",
+                        "Label": "8",
+                        "Par": 3,
+                        "Length": 424
+                    },
+                    {
+                        "Hole": "H8",
+                        "Label": "9",
+                        "Par": 5,
+                        "Length": 641
+                    },
+                    {
+                        "Hole": "H9",
+                        "Label": "10",
+                        "Par": 3,
+                        "Length": 317
+                    },
+                    {
+                        "Hole": "H10",
+                        "Label": "11",
+                        "Par": 4,
+                        "Length": 503
+                    },
+                    {
+                        "Hole": "H11",
+                        "Label": "12",
+                        "Par": 4,
+                        "Length": 401
+                    },
+                    {
+                        "Hole": "H12",
+                        "Label": "13",
+                        "Par": 3,
+                        "Length": 282
+                    },
+                    {
+                        "Hole": "H13",
+                        "Label": "14",
+                        "Par": 4,
+                        "Length": 531
+                    },
+                    {
+                        "Hole": "H14",
+                        "Label": "16",
+                        "Par": 3,
+                        "Length": 336
+                    },
+                    {
+                        "Hole": "H15",
+                        "Label": "B",
+                        "Par": 3,
+                        "Length": 437
+                    },
+                    {
+                        "Hole": "H16",
+                        "Label": "C",
+                        "Par": 4,
+                        "Length": 639
+                    },
+                    {
+                        "Hole": "H17",
+                        "Label": "17",
+                        "Par": 3,
+                        "Length": 441
+                    },
+                    {
+                        "Hole": "H18",
+                        "Label": "18",
+                        "Par": 5,
+                        "Length": 902
+                    }
+                ]
+            }
+        ],
+        "Name": "Tecumseh Takeover 2025 - Pro Day",
+        "NameHtml": "Tecumseh Takeover 2025 - Pro Day",
+        "MultiLineName": {
+            "pre": "",
+            "main": "Tecumseh Takeover 2025 - Pro Day",
+            "post": ""
+        },
+        "MultiLineNameHtml": " <span class=\"event-name-main\">Tecumseh Takeover 2025 - Pro Day</span>",
+        "RawTier": "B",
+        "Rounds": 2,
+        "RoundsList": {
+            "1": {
+                "Number": 1,
+                "Label": "Round 1",
+                "LabelAbbreviated": "Rd 1",
+                "Date": "2025-09-14",
+                "DateAbbreviated": "Sep 14",
+                "ShowDate": false
+            },
+            "2": {
+                "Number": 2,
+                "Label": "Round 2",
+                "LabelAbbreviated": "Rd 2",
+                "Date": "2025-09-14",
+                "DateAbbreviated": "Sep 14",
+                "ShowDate": false
+            }
+        },
+        "Semis": "no",
+        "SimpleName": "Tecumseh Takeover 2025 - Pro Day",
+        "StartDate": "2025-09-14",
+        "TDName": "Curvin Stine",
+        "TDPDGANum": 41869,
+        "Tier": "B",
+        "FormattedTier": "B-Tier",
+        "FormattedLongTier": "B-Tier",
+        "TierPro": "B",
+        "TierAm": "B",
+        "TierX": false,
+        "TotalPlayers": 60,
+        "TournamentId": "95560",
+        "International": false,
+        "FullStats": true,
+        "TimeZone": "America/New_York",
+        "AdditionalEventInfo": null,
+        "EventVideo": null,
+        "ScoringFormat": "S"
+    },
+    "live_layout": [
+        {
+            "layoutId": 729830,
+            "courseId": 206491,
+            "courseName": "Camp Tecumseh",
+            "tournId": 95560,
+            "name": "Tecumseh Takeover 2025 Pro Day Layout",
+            "holes": 18,
+            "par": 62,
+            "length": 8766,
+            "units": "Feet",
+            "accuracy": "M",
+            "notes": "",
+            "ssaRd1": 58.107,
+            "ssaRd2": 58.211,
+            "ssaRd3": null,
+            "ssaRd4": null,
+            "ssaRd5": null,
+            "ssaRd6": null,
+            "ssaRd7": null,
+            "ssaRd8": null,
+            "ssaRd9": null,
+            "ssaRd10": null,
+            "ssaSemis": null,
+            "ssaFinals": null,
+            "combinedSSA": null,
+            "provisionalSSA": null,
+            "challengeFactor": null,
+            "updateDate": "2025-09-15T15:28:02+00:00",
+            "liveLayoutDetails": [
+                {
+                    "layoutDetailId": 20056791,
+                    "layoutId": 729830,
+                    "hole": "H1",
+                    "holeOrdinal": 1,
+                    "label": "1",
+                    "tee": "Long",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 328,
+                    "notes": "Long Pad. Creek in front of teepad is OB",
+                    "updateDate": "2025-09-10T12:20:51+00:00"
+                },
+                {
+                    "layoutDetailId": 20056792,
+                    "layoutId": 729830,
+                    "hole": "H2",
+                    "holeOrdinal": 2,
+                    "label": "2",
+                    "tee": "Normal",
+                    "target": "Blue",
+                    "par": 4,
+                    "length": 568,
+                    "notes": "Long Blue Basket. Creek is casual relief",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056793,
+                    "layoutId": 729830,
+                    "hole": "H3",
+                    "holeOrdinal": 3,
+                    "label": "3",
+                    "tee": "Long",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 371,
+                    "notes": "Long Pad. The ditch in front of the basket is casual. Creek and across is OB",
+                    "updateDate": "2024-09-06T18:22:46+00:00"
+                },
+                {
+                    "layoutDetailId": 20056794,
+                    "layoutId": 729830,
+                    "hole": "H4",
+                    "holeOrdinal": 4,
+                    "label": "4S",
+                    "tee": "4's Pad",
+                    "target": "Blue",
+                    "par": 4,
+                    "length": 656,
+                    "notes": "Safari. 4's Teepad to 5's Blue Basket. Creek OB",
+                    "updateDate": "2025-09-14T12:53:41+00:00"
+                },
+                {
+                    "layoutDetailId": 20056795,
+                    "layoutId": 729830,
+                    "hole": "H5",
+                    "holeOrdinal": 5,
+                    "label": "6",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 234,
+                    "notes": "No OB",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056796,
+                    "layoutId": 729830,
+                    "hole": "H6",
+                    "holeOrdinal": 6,
+                    "label": "7",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 5,
+                    "length": 755,
+                    "notes": "No OB",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056797,
+                    "layoutId": 729830,
+                    "hole": "H7",
+                    "holeOrdinal": 7,
+                    "label": "8",
+                    "tee": "Normal",
+                    "target": "Blue",
+                    "par": 3,
+                    "length": 424,
+                    "notes": "Long Blue Basket. Fenced in pool area is OB",
+                    "updateDate": "2024-09-06T18:22:46+00:00"
+                },
+                {
+                    "layoutDetailId": 20056798,
+                    "layoutId": 729830,
+                    "hole": "H8",
+                    "holeOrdinal": 8,
+                    "label": "9",
+                    "tee": "Long",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 641,
+                    "notes": "Long Teepad to Short Yellow Basket. Fenced in pool area OB. Fenced in area by Yellow Basket OB. Road and across OB",
+                    "updateDate": "2024-09-06T18:22:46+00:00"
+                },
+                {
+                    "layoutDetailId": 20056799,
+                    "layoutId": 729830,
+                    "hole": "H9",
+                    "holeOrdinal": 9,
+                    "label": "10",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 317,
+                    "notes": "Island in effect. All OB drives proceed to drop zone",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056800,
+                    "layoutId": 729830,
+                    "hole": "H10",
+                    "holeOrdinal": 10,
+                    "label": "11",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 503,
+                    "notes": "Road OB.  2 Meter relief from metal grill.",
+                    "updateDate": "2025-09-14T11:20:58+00:00"
+                },
+                {
+                    "layoutDetailId": 20056801,
+                    "layoutId": 729830,
+                    "hole": "H11",
+                    "holeOrdinal": 11,
+                    "label": "12",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 401,
+                    "notes": "Long pad. Flagged Left side OB. Small pond and Lake OB. Drop Zone for short left OB",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056802,
+                    "layoutId": 729830,
+                    "hole": "H12",
+                    "holeOrdinal": 12,
+                    "label": "13",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 282,
+                    "notes": "Lake OB",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056803,
+                    "layoutId": 729830,
+                    "hole": "H13",
+                    "holeOrdinal": 13,
+                    "label": "14",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 531,
+                    "notes": "PLAYING AS A PAR 3. Road and across OB. Creek is OB (surrounded by water). Across creek is NOT OB ",
+                    "updateDate": "2025-09-10T12:20:51+00:00"
+                },
+                {
+                    "layoutDetailId": 20056804,
+                    "layoutId": 729830,
+                    "hole": "H14",
+                    "holeOrdinal": 14,
+                    "label": "16",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 336,
+                    "notes": "Road and across OB",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056805,
+                    "layoutId": 729830,
+                    "hole": "H15",
+                    "holeOrdinal": 15,
+                    "label": "B",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 437,
+                    "notes": "Long Blue Basket. Tennis Courts OB. Lake OB. White Line long and right OB",
+                    "updateDate": "2024-09-06T18:22:46+00:00"
+                },
+                {
+                    "layoutDetailId": 20056806,
+                    "layoutId": 729830,
+                    "hole": "H16",
+                    "holeOrdinal": 16,
+                    "label": "C",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 639,
+                    "notes": "All OB Painted.",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056807,
+                    "layoutId": 729830,
+                    "hole": "H17",
+                    "holeOrdinal": 17,
+                    "label": "17",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 441,
+                    "notes": "Island in effect. Bailout zone short of first line is in bounds. All OB drives proceed to Drop Zone",
+                    "updateDate": "2025-09-10T12:52:16+00:00"
+                },
+                {
+                    "layoutDetailId": 20056808,
+                    "layoutId": 729830,
+                    "hole": "H18",
+                    "holeOrdinal": 18,
+                    "label": "18",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 902,
+                    "notes": "PLAYING AS A PAR 4. Right road and across OB.  Bridge is considered part of the road. On or under the bridge is OB. Creek in front of the basket is OB. Left Creek and across OB.",
+                    "updateDate": "2025-09-14T11:20:58+00:00"
+                }
+            ]
+        },
+        {
+            "layoutId": 729831,
+            "courseId": 206491,
+            "courseName": "Camp Tecumseh",
+            "tournId": 95560,
+            "name": "Tecumseh Takeover 2025 Pro Day FPO Layout",
+            "holes": 18,
+            "par": 66,
+            "length": 8667,
+            "units": "Feet",
+            "accuracy": "M",
+            "notes": "",
+            "ssaRd1": null,
+            "ssaRd2": null,
+            "ssaRd3": null,
+            "ssaRd4": null,
+            "ssaRd5": null,
+            "ssaRd6": null,
+            "ssaRd7": null,
+            "ssaRd8": null,
+            "ssaRd9": null,
+            "ssaRd10": null,
+            "ssaSemis": null,
+            "ssaFinals": null,
+            "combinedSSA": null,
+            "provisionalSSA": null,
+            "challengeFactor": null,
+            "updateDate": "2025-09-10T14:05:59+00:00",
+            "liveLayoutDetails": [
+                {
+                    "layoutDetailId": 20056809,
+                    "layoutId": 729831,
+                    "hole": "H1",
+                    "holeOrdinal": 1,
+                    "label": "1",
+                    "tee": "Short",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 229,
+                    "notes": "Short Pad. Creek in front of teepad is OB",
+                    "updateDate": "2025-09-10T12:22:28+00:00"
+                },
+                {
+                    "layoutDetailId": 20056810,
+                    "layoutId": 729831,
+                    "hole": "H2",
+                    "holeOrdinal": 2,
+                    "label": "2",
+                    "tee": "Normal",
+                    "target": "Blue",
+                    "par": 4,
+                    "length": 568,
+                    "notes": "Long Blue Basket. Creek is casual relief",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056811,
+                    "layoutId": 729831,
+                    "hole": "H3",
+                    "holeOrdinal": 3,
+                    "label": "3",
+                    "tee": "Long",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 371,
+                    "notes": "Long Pad. The ditch in front of the basket is casual. Creek and across is OB",
+                    "updateDate": "2024-09-06T18:22:46+00:00"
+                },
+                {
+                    "layoutDetailId": 20056812,
+                    "layoutId": 729831,
+                    "hole": "H4",
+                    "holeOrdinal": 4,
+                    "label": "4S",
+                    "tee": "4's Pad",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 656,
+                    "notes": "Safari. 4's Teepad to 5's Blue Basket. Creek OB",
+                    "updateDate": "2024-09-05T18:16:26+00:00"
+                },
+                {
+                    "layoutDetailId": 20056813,
+                    "layoutId": 729831,
+                    "hole": "H5",
+                    "holeOrdinal": 5,
+                    "label": "6",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 234,
+                    "notes": "No OB",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056814,
+                    "layoutId": 729831,
+                    "hole": "H6",
+                    "holeOrdinal": 6,
+                    "label": "7",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 5,
+                    "length": 755,
+                    "notes": "No OB",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056815,
+                    "layoutId": 729831,
+                    "hole": "H7",
+                    "holeOrdinal": 7,
+                    "label": "8",
+                    "tee": "Normal",
+                    "target": "Blue",
+                    "par": 3,
+                    "length": 424,
+                    "notes": "Long Blue Basket. Fenced in pool area is OB",
+                    "updateDate": "2024-09-06T18:22:46+00:00"
+                },
+                {
+                    "layoutDetailId": 20056816,
+                    "layoutId": 729831,
+                    "hole": "H8",
+                    "holeOrdinal": 8,
+                    "label": "9",
+                    "tee": "Long",
+                    "target": "Yellow",
+                    "par": 5,
+                    "length": 641,
+                    "notes": "Long Teepad to Short Yellow Basket. Fenced in pool area OB. Fenced in area by Yellow Basket OB. Road and across OB",
+                    "updateDate": "2024-09-07T19:46:52+00:00"
+                },
+                {
+                    "layoutDetailId": 20056817,
+                    "layoutId": 729831,
+                    "hole": "H9",
+                    "holeOrdinal": 9,
+                    "label": "10",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 317,
+                    "notes": "Island in effect. All OB drives proceed to drop zone",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056818,
+                    "layoutId": 729831,
+                    "hole": "H10",
+                    "holeOrdinal": 10,
+                    "label": "11",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 503,
+                    "notes": "Road OB",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056819,
+                    "layoutId": 729831,
+                    "hole": "H11",
+                    "holeOrdinal": 11,
+                    "label": "12",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 401,
+                    "notes": "Long pad. Flagged Left side OB. Small pond and Lake OB. Drop Zone for short left OB",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056820,
+                    "layoutId": 729831,
+                    "hole": "H12",
+                    "holeOrdinal": 12,
+                    "label": "13",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 282,
+                    "notes": "Lake OB",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056821,
+                    "layoutId": 729831,
+                    "hole": "H13",
+                    "holeOrdinal": 13,
+                    "label": "14",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 531,
+                    "notes": "Road and across OB. Creek is OB (surrounded by water). Across creek is NOT OB ",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056822,
+                    "layoutId": 729831,
+                    "hole": "H14",
+                    "holeOrdinal": 14,
+                    "label": "16",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 336,
+                    "notes": "Road and across OB",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056823,
+                    "layoutId": 729831,
+                    "hole": "H15",
+                    "holeOrdinal": 15,
+                    "label": "B",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 437,
+                    "notes": "Long Blue Basket. Tennis Courts OB. Lake OB. White Line long and right OB",
+                    "updateDate": "2024-09-06T18:22:46+00:00"
+                },
+                {
+                    "layoutDetailId": 20056824,
+                    "layoutId": 729831,
+                    "hole": "H16",
+                    "holeOrdinal": 16,
+                    "label": "C",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 4,
+                    "length": 639,
+                    "notes": "All OB Painted.",
+                    "updateDate": "2025-09-10T14:05:59+00:00"
+                },
+                {
+                    "layoutDetailId": 20056825,
+                    "layoutId": 729831,
+                    "hole": "H17",
+                    "holeOrdinal": 17,
+                    "label": "17",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 3,
+                    "length": 441,
+                    "notes": "Island in effect. Bailout zone short of first line is in bounds. All OB drives proceed to Drop Zone",
+                    "updateDate": "2025-09-10T12:50:54+00:00"
+                },
+                {
+                    "layoutDetailId": 20056826,
+                    "layoutId": 729831,
+                    "hole": "H18",
+                    "holeOrdinal": 18,
+                    "label": "18",
+                    "tee": "Normal",
+                    "target": "Yellow",
+                    "par": 5,
+                    "length": 902,
+                    "notes": "Right road and across OB. Creek in front of the basket is OB. Left Creek and across OB.",
+                    "updateDate": "2025-09-10T12:52:46+00:00"
+                }
+            ]
+        }
+    ]
+}
